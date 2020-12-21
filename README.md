@@ -1,14 +1,14 @@
 #Installation instructions / Run Instructions
 
-I used the MASS, survival, randomForestSRC, alabama, and survminer package for R and you'll notice code source "Parametric survival.R", "cox survival function.R", "code stacking model.R", "ISSE.R", and "Kaplan Meier curve.R" in .rar files.
+I used the MASS, survival, randomForestSRC, alabama, and survminer package for R and you'll notice code source "Parametric survival.R", "cox survival function.R", "code stacking model.R", "COVID-19 stacked method.R", "ISSE.R", and "Kaplan Meier curve.R" in .rar files.
 
 Step 1: Install all package in your R (MASS, survival, randomForestSRC,alabama, survminer).
 
 Step 2: Run "Parametric survival.R", "cox survival function.R", "code stacking model.R" .
 
-Step 2a: Open "code stacking model.R" in R and start inputting your data (covid2 (1)) for .csv files in R (I already wrote the code in code stacking model.R files)
+Step 2a: Open "COVID-19 stacked method.R" in R and start inputting your data (covid2 (1)) for .csv files in R (I already wrote the code in COVID-19 stacked method.R files)
 
-Step 2b: Run all code in "code stacking model.R" after inputing data code.
+Step 2b: Run all code in "COVID-19 stacked method.R" after inputing data code.
 
 Step 3: Run all code "ISSE.R".
 
