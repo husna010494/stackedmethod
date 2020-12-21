@@ -14,6 +14,8 @@ Step 3: Run all code "ISSE.R".
 
 Step 4: write summary(mod.ln) and summary(mod.cox) for result of each model.
 
+Step 5: write stacked.est$alphas to weight from each model for stacked model.
+
 step 5: write "error1" for ISSE log-normal survival model, write "error2" for ISSE cox survival model, write "error3" for ISSE random forest survival model,
 and write "error4" for ISSE stacked model.
 
