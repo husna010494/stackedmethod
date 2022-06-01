@@ -1,25 +1,20 @@
 #Installation instructions / Run Instructions
 
-I used the MASS, survival, randomForestSRC, alabama, and survminer package for R and you'll notice code source "Parametric survival.R", "cox survival function.R", "code stacking model.R", "COVID-19 stacked method.R", "ISSE.R", and "Kaplan Meier curve.R" in .rar files.
+I used the MASS, survival, randomForestSRC, alabama, and survminer package for R and you'll notice code source "ParametricEst_function.R", "cox survival function.R", "stacking model.R", "Covid model.R", "ISSE.R", and "ROC.R".
 
 Step 1: Install all package in your R (MASS, survival, randomForestSRC,alabama, survminer).
 
-Step 2: Run "Parametric survival.R", "cox survival function.R", "code stacking model.R" .
+Step 2: Run "ParametricEst_function.R", "cox survival function.R", "code stacking model.R" .
 
-Step 2a: Open "COVID-19 stacked method.R" in R and start inputting your data (covid2 (1)) for .csv files in R (I already wrote the code in COVID-19 stacked method.R files)
+Step 2a: Open "Covid model.R" in R and start inputting your data (covid dataset) by dat1=read.delim("clipboard")
 
-Step 2b: Run all code in "COVID-19 stacked method.R" after inputing data code.
+Step 2b: Run all code in "Covid model.R" after inputing data code.
 
-Step 3: Run all code "ISSE.R".
+Step 3: Run all code "ROC.R" and then change the marker by type model.
 
 Step 4: write summary(mod.ln) and summary(mod.cox) for result of each model.
 
 Step 5: write stacked.est$alphas to weight from each model for stacked model.
-
-step 5: write "error1" for ISSE log-normal survival model, write "error2" for ISSE cox survival model, write "error3" for ISSE random forest survival model,
-and write "error4" for ISSE stacked model.
-
-step 6: run all code "Kaplan Meier curve.R" to get the Kaplan-Meier curve.
 
 #Requirements
 
